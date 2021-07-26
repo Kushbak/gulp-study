@@ -1,0 +1,32 @@
+.header {
+	display: flex; 
+	justify-content: space-between; 
+	align-items: center;
+	padding: 40px 20px;	   
+	border-bottom: 1px solid #DDE2E7;     
+}
+
+.header__links { 
+	flex-basis: 25%; 
+	padding: 0 80px;
+	height: 25px; 
+	img{ 
+		height: 100%;
+	}
+}
+
+.logo{
+	flex-basis: 50%;
+	text-align: center;
+} 
+
+.header-btns{
+	flex-basis: 25%;
+	display: flex; 
+	align-items: center; 
+	justify-content: space-between;
+	padding: 0 30px;
+	img{
+		width: 8%;
+	}
+}

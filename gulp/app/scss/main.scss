@@ -1,0 +1,15 @@
+@import 'blocks/_header.scss';
+@import 'blocks/_footer.scss';
+
+$color: green;
+
+body{
+	color: green;
+	display: flex;
+	flex-direction: column;
+	-webkit-transition: all 1s ease-in;
+	   -moz-transition: all 1s ease-in;
+	    -ms-transition: all 1s ease-in;
+	     -o-transition: all 1s ease-in;
+	        transition: all 1s ease-in;
+}

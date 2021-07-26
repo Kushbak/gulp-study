@@ -1,0 +1,6 @@
+mixin sb-post(title, img, date)
+	.sb-post
+		.sb-post__img
+			img(src='img/posts/' + img + '.png', alt=title)
+		p.sb-post__title #{title}
+		p.sb-post__date #{date}

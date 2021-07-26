@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&family=Raleway:wght@400;900&display=swap');
+@import 'utils/_reset.scss';
+@import 'blocks/_header.scss';
+@import 'blocks/_footer.scss';
+@import 'blocks/_sidebar.scss';
+@import 'blocks/_content.scss';
+@import 'blocks/_post-mixin.scss';
+
+.main{
+	padding-top: 40px;
+}
+
+.wrapper{
+	width: 100%;
+	max-width: 1140px;
+	margin: 0 auto;
+	display: flex; 
+	justify-content: space-between;
+}
+
+
+.links{
+	display: flex;
+    align-items: baseline;
+	flex-direction: row;
+    justify-content: space-around; 
+    height: 30px;
+    img{
+    	height: 100%;
+    }
+}
+
+.btn{
+	background: #375573;
+	text-transform: uppercase;
+	padding: 12px 35px;
+    border-radius: 8px;
+    color: #fff;
+}
+.btn-borderCircle{
+    border-radius: 20px;
+}
+
+.pagination{
+	display: flex; 
+	justify-content: space-between;
+    color: #000;
+    padding-bottom: 60px;
+}
+.pagination__pages{
+	display: flex;
+	justify-content: space-between; 
+	width: 60px;
+	font-size: 18px;
+	a{
+		color: #000;
+		font-weight: bold;
+	}
+}
+.pagination__older{
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}

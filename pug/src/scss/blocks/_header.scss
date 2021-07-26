@@ -1,0 +1,19 @@
+.header { 
+	display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 20px;
+    height: 80px;
+    background-color: rgb(24, 214, 65);
+}
+
+.nav{ 
+	display: flex; 
+    justify-content: space-around;
+    -webkit-flex-basis: 40%;
+            flex-basis: 40%;
+}
+
+.logo{
+	font-size: 2rem;
+}

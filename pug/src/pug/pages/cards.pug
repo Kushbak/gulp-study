@@ -1,0 +1,15 @@
+extends ./../layouts/index.pug
+include ../mixins/_card.pug
+
+block vars
+    - const title = 'Карточки';
+
+block content 
+    .card-holders
+
+        +card('Apple TV', '$290', 'https://images.fastcompany.net/image/upload/w_1280,f_auto,q_auto,fl_lossy/wp-cms/uploads/2017/09/p-1-apple-tv-price.jpg')
+
+        +card('Apple Watch', '$290', 'https://click-or-die.ru/wp-content/uploads/2019/10/Apple-Watch-LEAD.jpg')
+
+        +card('Apple Iphone', '$290', 'https://s.aolcdn.com/hss/storage/midas/bd65dbe530a21d8d8f4eba277a67bc54/203605735/se-fb1.jpg') 
+

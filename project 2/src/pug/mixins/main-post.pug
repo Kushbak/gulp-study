@@ -1,0 +1,15 @@
+mixin post(title, date, img, description)
+	.post
+		h3.h3.post__title #{title}
+		p.post__date #{date}
+		.post__img
+			img(src='img/posts/' + img, alt=title)
+		p.post__descr #{description}
+		.post__links
+			//- .button-block
+			button.btn Read More
+			.links 
+				img(src='img/icons/whatsapp.svg', alt=whatsapp)
+				img(src='img/icons/instagram.svg', alt=instagram)
+				img(src='img/icons/twitter.svg', alt=twitter)
+				img(src='img/icons/facebook-f.svg', alt=facebook)

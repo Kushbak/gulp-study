@@ -1,0 +1,27 @@
+.footer {
+	background: #DDE2E7;
+}
+.footer-block{ 
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	width: 100%; 
+	padding: 30px 0 40px;
+}
+.footer__links{
+	display: flex; 
+	flex-direction: column;
+	a{
+		margin-bottom: 10px;
+		color: #8e9399; 
+	} 
+}
+.footer__links.links{
+	width: 180px;
+}
+
+.copyright{
+	text-align: center;
+	padding: 30px 0;
+	color: #B7BABE;
+	background: #e8ebee;
+}
